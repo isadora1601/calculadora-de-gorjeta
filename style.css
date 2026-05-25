@@ -5,20 +5,22 @@
     font-family: "Space Mono", serif;
 }
 
+
 :root {
-    --green-100: #f3f9fa;
-    --green-200: #c5e4e7;
-    --green-300: #9ebbbd;
-    --green-400: #7f9d9f;
-    --green-500: #5e7a7d;
-    --green-600: #547878;
-    --green-700: #3D6666;
-    --green-800: #00474B;
-    --light-green: #26C2AE;
-    --white: #FFFFFF;
-    --green-hover: #9fe8df;
-    --danger: #e17457;
+    --green-100: #fff6fb;
+    --green-200: #ffe9f5;
+    --green-300: #ffd3eb;
+    --green-400: #ffb6dc;
+    --green-500: #ff9aca;
+    --green-600: #ff7fb9;
+    --green-700: #ff5ea6;
+    --green-800: #d94484;
+    --light-green: #ff8dcf;
+    --white: #ffffff;
+    --green-hover: #ffcae9;
+    --danger: #ff6f6f;
 }
+
 
 body {
     background-color: var(--green-200);
@@ -112,7 +114,7 @@ main {
 
 .gorjeta .botao-ativo {
     background-color: var(--light-green);
-    color: var(--green-800);
+    color: var(--green-100);
 }
 
 .gorjeta input[type="button"]:hover,
@@ -148,6 +150,7 @@ main {
    font-size: 0.75rem;
    color: var(--danger);
    font-weight: 700;
+   display: none;
    
 }
 
@@ -252,4 +255,5 @@ main {
 .resultados div > strong{
     font-size: 3rem;
 }
+
 
